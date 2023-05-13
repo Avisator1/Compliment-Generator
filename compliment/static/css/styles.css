@@ -1,0 +1,26 @@
+body {
+    background-color:  #B5EAD7
+}
+.complimentheading {
+    font-family: 'Wix Madefor Display', sans-serif;
+    text-align: center;
+}
+.buttonStyle {
+    background-color: #8ABFA8;
+    font-family: 'Wix Madefor Display', sans-serif;
+    height: 35px;
+}
+.buttonStyle:hover {
+    cursor: pointer;
+}
+.lineBruh {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Wix Madefor Display', sans-serif;
+}

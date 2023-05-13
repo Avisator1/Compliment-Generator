@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/styles.css/"
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compliment Generator</title>
+</head>
+<body>
+    <div class="complimentheading">
+    <h1>compliment generator</h1>
+    <p>if you are feeling down click the generate compliment button</p>
+    <form method="POST">
+    <button type="submit" class="buttonStyle" name="complimentTrigger">Generate Compliment</button>
+    </form>
+    </div>
+
+    {% if userTrigger == True %}
+        <h1 class="lineBruh">{{ line }}</h1>
+    {% endif %}
+</body>
+</html>
