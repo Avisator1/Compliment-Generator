@@ -8,10 +8,20 @@ body {
 .buttonStyle {
     background-color: #8ABFA8;
     font-family: 'Wix Madefor Display', sans-serif;
-    height: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: none;
+    border-radius: 10px;
 }
 .buttonStyle:hover {
     cursor: pointer;
+    opacity: 0.4;
+}
+
+.buttonStyle:active {
+  margin-right: 2px;
 }
 .lineBruh {
     position: fixed;
